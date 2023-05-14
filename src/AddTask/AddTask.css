@@ -1,0 +1,30 @@
+.addTask {
+  width: 80%;
+  height: 70px;
+  margin: auto;
+}
+
+.addTask {
+  text-align: center;
+}
+
+.t-input {
+  background-color: inherit;
+  border: none;
+  border-bottom: 2px solid rgba(93, 244, 151, 0.341);
+  width: 70%;
+  outline: none;
+  padding-top: 20px;
+}
+
+.t-input:focus {
+  border-bottom: 2px solid rgba(16, 236, 100, 0.725);
+}
+
+.t-add,
+.t-cancel {
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: rgba(62, 93, 2, 0.74);
+  border: 2px solid rgba(139, 69, 19, 0.436);
+}
