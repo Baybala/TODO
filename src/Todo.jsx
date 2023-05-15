@@ -25,7 +25,9 @@ function Todo() {
       setTaskEdit('')
       return
     }
-    setTasks((existingTasks) => [...existingTasks, task])
+    setTasks((existingTasks) => {
+      return existingTasks ? [...existingTasks, task] : [task]
+    })
   }
 
   const handleDelete = (task) => {
